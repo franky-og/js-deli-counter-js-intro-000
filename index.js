@@ -19,6 +19,9 @@ function currentLine (katzDeliLine) {
       
       for (var i = 0; i < katzDeliLine.length; i++) {
         line = line + `${i + 1}. ${katzDeliLine[i]}, `
+        if (i + 1 === katzDeliLine.length) {
+          
+        }
      }
      
      return line
